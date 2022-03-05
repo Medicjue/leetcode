@@ -1,3 +1,4 @@
+from typing import List
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         return self.g([""], n*2, 0)
